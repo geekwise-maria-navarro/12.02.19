@@ -1,0 +1,1 @@
+web: cd bank && python manage.py migrate && gunicorn main.wsgi
